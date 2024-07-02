@@ -3,14 +3,12 @@ package com.astha.springboot.WebProjectWithReact.controller;
 import com.astha.springboot.WebProjectWithReact.model.User;
 import com.astha.springboot.WebProjectWithReact.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin("http://localhost:5173/")
 public class UserController {
 
     @Autowired

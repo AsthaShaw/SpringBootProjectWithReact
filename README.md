@@ -2,7 +2,7 @@
 
 ### Tech Stack
 
-- SpringBoot-Spring Web, Spring Data JPA and SQL driver
+- SpringBoot-Spring Web, Spring Data JPA and MySQL driver
 - React
 - MySQL
 
